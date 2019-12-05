@@ -1,31 +1,69 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+  "name": "sra",
+  "version": "1.0.0",
+  "description": "Au moins on est venu",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinetos/Xsinoi.git"
   },
+  "keywords": [
+    "react",
+    "reactjs",
+    "blk",
+    "blk-react",
+    "design",
+    "design-react",
+    "system",
+    "system-react",
+    "design-system",
+    "design-system-react",
+    "blk-design",
+    "blk-design-react",
+    "blk-system",
+    "blk-system-react",
+    "blk-design-system",
+    "blk-design-system-react"
+  ],
+  "author": "Creative Tim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
+  },
+  "homepage": "https://github.com/creativetimofficial/blk-design-system-react#readme",
   "dependencies": {
-    "expo": "^35.0.0",
-    "expo-asset": "^7.0.0",
-    "expo-font": "^7.0.0",
-    "galio-framework": "^0.6.3",
-    "prop-types": "^15.7.2",
+    "chart.js": "2.7.3",
+    "classnames": "2.2.6",
+    "moment": "2.24.0",
+    "node-sass": "4.11.0",
+    "nouislider": "13.1.1",
+    "perfect-scrollbar": "1.4.0",
     "react": "16.8.3",
+    "react-bootstrap-switch": "15.5.3",
+    "react-chartjs-2": "2.7.4",
+    "react-datetime": "2.16.3",
     "react-dom": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
-    "react-native-gesture-handler": "~1.3.0",
-    "react-native-modal-dropdown": "^0.7.0",
-    "react-native-web": "^0.11.7",
-    "react-navigation": "^4.0.10",
-    "react-navigation-drawer": "^2.3.3",
-    "react-navigation-stack": "^1.10.3",
-    "react-native-reanimated": "~1.2.0"
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.5",
+    "reactstrap": "7.1.0"
   },
-  "devDependencies": {
-    "babel-preset-expo": "^7.1.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css",
+    "minify-sass": "node-sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css --source-map true"
   },
-  "private": true
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
