@@ -15,3 +15,5 @@ npm i
 ```sh
 npm start
 ```
+# Documentation
+https://docs.google.com/document/d/1wedXz5Ifqoyb89nzzs--zsMMJArFJAfsvE9wYqINSiM/edit?usp=sharing
