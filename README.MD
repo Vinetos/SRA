@@ -4,7 +4,7 @@ A project for NuitDeLinfo2019
 # Build
 ```sh
 # Clone the repo
-git@github.com:Vinetos/SRA.git
+git clone git@github.com:Vinetos/SRA.git
 cd sra
 
 # Install dependencies
